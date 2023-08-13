@@ -1,0 +1,208 @@
+body {
+    font-family: 'Poppins';
+}
+
+/*App CSS for pages 1*/
+#app-page1 {
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    background-image: url("/Images/back.jpg"); /*adds an image to be the background*/
+	background-repeat:no-repeat;
+	background-color:#000000;
+    background-size: cover;
+}
+
+/*App CSS for pages 2, 3 and 4*/
+#app-screen {
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    background-image: url("/Images/background.jpg");
+	background-repeat:no-repeat;
+	background-color:#000000;
+    background-size: cover;
+    position: relative;
+    color:white;
+}
+
+
+/*App CSS for page 4*/
+#app {
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+	background-color:#00389C;
+    position: relative;
+    color:white;
+    align-items: center;
+}
+
+
+
+h1 {
+    margin-right: 30px;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2 { 
+    margin-right: 20px;
+    margin-left: 150px;
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 25px;
+    margin-left: 7%;
+}
+
+h4 {
+    font-size: 20px;
+    margin:20px 0px 20px 0px ;
+    margin-left: 10%;
+}
+
+p {
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+
+/*Start of Flex*/
+.flex-container {
+    display: flex;
+    color: white;
+    margin-left: 60px;
+}
+  
+.flex-container > div {
+    background-color: #00389C;
+    margin: 10px;
+    width:85px;
+    height:80px;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.big-box {
+    flex-basis: 200px;
+    border-radius: 10px 0 0px 10px ;
+}
+
+.small-box{
+    border-radius: 0px 10px 10px 0px ;
+}
+
+/*Styling cloud image*/
+.cloud {
+    width:60px; 
+    float:left;
+    margin: 20px 2px 0px 4px;
+}
+
+/*Styling barrel image*/
+.barrel {
+    width:50px; 
+    float:left;
+    margin: 5px 2px 0px 5px;
+}
+
+/*Styling floder image*/
+.folder {
+    width:60px; 
+    float:left;
+    margin: 7px 5px 0px 5px;
+}
+
+/*Styling arrows*/
+.arrow {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 12px;
+    margin-top: 25px;
+    margin-left: 23px;
+    border-radius: 10%;
+}
+
+/*styles where the arrow is pointing*/
+.point {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+/*End of Flex*/
+
+
+.square {
+    height:400px;
+    width:400px;
+    background-color: #00389C;
+    position: absolute;
+    bottom:0;
+}
+
+/**/
+.button {
+    background-color: #660B08;
+    font-size: 25px;
+    width:150px;
+    height:80px;
+    color:white;
+    border-radius: 10px;
+    bottom: 10px;
+}
+
+.left {
+    position: absolute;
+    left:40px;
+    
+}
+
+.right {
+    position: absolute;
+    right:40px;
+}
+
+
+
+/*textbox for name*/
+#fname {
+    width:80%;
+    padding:3% 0% 3% 0%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+/*textbox for email*/
+#femail {
+    width:80%;
+    padding:3% 0% 3% 0%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+/*textbox for question*/
+#fquestion {
+    width:80%;
+    padding:15% 0% 15% 0%;
+    border-radius: 10px;
+    
+    margin-left: 10%;
+}
+
+/*submit button*/
+.submit-button {
+    background-color: #660B08;
+    font-size: 25px;
+    width:150px;
+    height:80px;
+    color:white;
+    border-radius: 10px;
+    bottom: 10px;
+    margin-left: 30%;
+}
